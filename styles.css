@@ -1,0 +1,114 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header & Navigation */
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    height: 50px; /* Keep the header height fixed */
+    width: 200px; /* Adjust width to fit proportionally */
+    overflow: hidden; /* Crop the sides of the image */
+    display: flex;
+    align-items: center; /* Keep it vertically centered */
+    justify-content: center;
+    position: relative; /* Allow vertical adjustment */
+}
+
+.logo img {
+    height: 83px; /* Increased by 33% from original 50px */
+    width: auto;
+    object-fit: cover; /* Zoom in and crop */
+    position: relative;
+    top: -3px; /* Shift the image up by 3 pixels */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: url('chicago-skyline.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 100px 20px;
+    background-color: #B3DDF2;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.cta-button {
+    background-color: #FF0000;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Services Section */
+#services {
+    padding: 50px 20px;
+    background-color: #B3DDF2;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service {
+    background: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px 20px;
+    background-color: #ffffff;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    position: relative;
+}
+
+.footer-bar {
+    width: 100%;
+    height: 8px;
+    background: linear-gradient(to right, black, #FF0000, #B3DDF2, white);
+}
