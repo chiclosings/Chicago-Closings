@@ -63,6 +63,14 @@ nav ul li a {
     font-size: 36px;
 }
 
+.hero-subtitle {
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: -20px; /* Moves the subtitle upward to sit above the heading */
+    color: white;
+    font-weight: 400;
+}
+
 .cta-button {
     background-color: #FF0000;
     color: white;
